@@ -1,0 +1,77 @@
+:root{
+    --logo-size-clamp: clamp(4rem, 6vw + 1rem, 6rem);
+}
+
+body {
+    background-color: rgb(230,230,230);
+    display:block !important;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+.flex{
+    display: flex;
+}
+
+.col{
+    flex-direction: column;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.container{
+    width: 95%;
+    margin-inline: auto;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.hide{
+    display: none;
+}
+
+.logo_outline{
+    border: 1px solid #fff;
+}
+
+.site_logo{
+    width: 100px;
+}
+
+.nav_container{
+    padding: .5rem 1rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(100,100,100);
+    margin-bottom: 1rem;
+}
+
+.game_sheet_buttons{
+    width: var(--logo-size-clamp);
+    cursor: pointer;
+    padding: .2rem;
+}
+
+.character_generators{
+    gap: 2rem;
+}
+
+.welcome_screen,
+.under_construction{
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome_screen_info{
+    width: 60ch;
+}
+
+.construction_sign{
+    width: 35%;
+}

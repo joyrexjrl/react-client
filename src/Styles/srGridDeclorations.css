@@ -1,0 +1,223 @@
+/*character general info header section*/
+
+.sr_character_name{
+    grid-area: sr_name;
+}
+
+.sr_character_race{
+    grid-area: sr_race;
+}
+
+.sr_character_sex{
+    grid-area: sr_sex;
+}
+
+.sr_character_age{
+    grid-area: sr_age;
+}
+
+.sr_character_description{
+    grid-area: sr_description;
+}
+
+.sr_character_header_notes{
+    grid-area: sr_notes;
+}
+
+/*damage bar section*/
+
+.sr_st1{
+    grid-area: stun_1;
+}
+
+.sr_st2{
+    grid-area: stun_2;
+}
+
+.sr_st3{
+    grid-area: stun_3;
+}
+
+.sr_st4{
+    grid-area: stun_4;
+}
+
+.sr_st5{
+    grid-area: stun_5;
+}
+
+.sr_st6{
+    grid-area: stun_6;
+}
+
+.sr_st7{
+    grid-area: stun_7;
+}
+
+.sr_st8{
+    grid-area: stun_8;
+}
+
+.sr_st9{
+    grid-area: stun_9;
+}
+
+.sr_st10{
+    grid-area: stun_10;
+}
+
+.sr_wn1{
+    grid-area: wound_1;
+}
+
+.sr_wn2{
+    grid-area: wound_2;
+}
+
+.sr_wn3{
+    grid-area: wound_3;
+}
+
+.sr_wn4{
+    grid-area: wound_4;
+}
+
+.sr_wn5{
+    grid-area: wound_5;
+}
+
+.sr_wn6{
+    grid-area: wound_6;
+}
+
+.sr_wn7{
+    grid-area: wound_7;
+}
+
+.sr_wn8{
+    grid-area: wound_8;
+}
+
+.sr_wn9{
+    grid-area: wound_9;
+}
+
+.sr_wn10{
+    grid-area: wound_10;
+}
+
+.sr_ls{
+    grid-area: light_stun;
+}
+
+.sr_ms{
+    grid-area: mod_stun;
+}
+
+.sr_ss{
+    grid-area: ser_stun;
+}
+
+.sr_ds{
+    grid-area: dead_stun;
+}
+
+.sr_lw{
+    grid-area: light_wound;
+}
+
+.sr_mw{
+    grid-area: mod_wound;
+}
+
+.sr_sw{
+    grid-area: ser_wound;
+}
+
+.sr_dw{
+    grid-area: dead_wound;
+}
+
+/*skills pools armor cyber edges section*/
+
+.sr_skills_block{
+    grid-area: sr_skills;
+}
+
+.sr_dice_pools_block{
+    grid-area: sr_pools;
+}
+
+.sr_armor_block{
+    grid-area: sr_armor;
+}
+
+.sr_cyberware_block{
+    grid-area: sr_cyber;
+}
+
+.sr_spells_block{
+    grid-area: sr_spells;
+}
+
+.sr_edges_flaws_block{
+    grid-area: sr_edges;
+}
+
+/*vehicle damage section*/
+
+.sr_veh_dam1{
+    grid-area: sr_veh_dam1;
+}
+
+.sr_veh_dam2{
+    grid-area: sr_veh_dam2;
+}
+
+.sr_veh_dam3{
+    grid-area: sr_veh_dam3;
+}
+
+.sr_veh_dam4{
+    grid-area: sr_veh_dam4;
+}
+
+.sr_veh_dam5{
+    grid-area: sr_veh_dam5;
+}
+
+.sr_veh_dam6{
+    grid-area: sr_veh_dam6;
+}
+
+.sr_veh_dam7{
+    grid-area: sr_veh_dam7;
+}
+
+.sr_veh_dam8{
+    grid-area: sr_veh_dam8;
+}
+
+.sr_veh_dam9{
+    grid-area: sr_veh_dam9;
+}
+
+.sr_veh_dam10{
+    grid-area: sr_veh_dam10;
+}
+
+.sr_veh_dam_light{
+    grid-area: sr_veh_dam_light;
+}
+
+.sr_veh_dam_mod{
+    grid-area: sr_veh_dam_mod;
+}
+
+.sr_veh_dam_ser{
+    grid-area: sr_veh_dam_ser;
+}
+
+.sr_veh_dam_dest{
+    grid-area: sr_veh_dam_dest;
+}

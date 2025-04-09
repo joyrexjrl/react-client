@@ -1,0 +1,501 @@
+/*general css start*/
+
+:root{
+    --sr_padding: .5rem;
+    --sr_gap_spacer: .5rem;
+    --sr_medium_text_size: .8rem;
+    --sr_small_text_size: .5rem;
+    --sr_tiny_text_size: .4rem;
+}
+
+.sr_h2{
+    font-size: 1.2rem;
+}
+
+.sr_character_sheet{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(600px, auto));
+    max-width: 1400px;
+    gap: var(--sr_gap_spacer);
+    margin: 1rem auto 0;
+    font-family: 'Friz Quadrata Std Medium';
+}
+
+.sr_character_sheet p{
+    font-size: .8rem;
+}
+
+.sr_all_cap_text{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sr_text_align_right{
+    text-align: right;
+}
+
+.sr_center_text{
+    text-align: center;
+}
+
+.sr_absolute_text_styling{
+    padding: .3rem var(--sr_padding) 1rem;
+    line-height: 1;
+}
+
+.sr_black_background_header_text{
+    background-color: #000;
+    color: #fff;
+    padding: .1rem .5rem;
+    font-size: .6rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.sr_front_page,
+.sr_back_page{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    max-width: 620px;
+    margin-inline: auto;
+    padding: .5rem;
+    gap: .8rem;
+}
+
+.sr_name_rating_spacer{
+    justify-content: space-between;
+}
+
+.sr_inner_block_container{
+    padding: var(--sr_padding);
+}
+
+.sr_divider_bar{
+    border-bottom: 1px solid #000;
+    margin: .5rem 0;
+}
+
+/*general css end*/
+/*info bar section start*/
+
+.sr_info_bar{
+    margin-inline: auto;
+    max-width: 1400px;
+    justify-content: space-between;
+    gap: var(--sr_gap_spacer);
+    font-family: 'Friz Quadrata Std Medium';
+}
+
+.sr_info_bar_text,
+.sr_generate_button_section{
+    width: 50%;
+}
+
+.sr_info_bar_text{
+    line-height: 1;
+    max-width: 50ch;
+}
+
+.sr_make_character_button{
+    width: 80px;
+    height: 25px;
+    cursor: pointer;
+    font-size: .8rem;
+}
+
+/*info bar section end*/
+/*head section css start*/
+
+.sr_head_section{
+    justify-content: space-between;
+}
+
+/*head section css end*/
+/*attributes conditions karma section css start*/
+
+.sr_character_name,
+.sr_character_race,
+.sr_character_sex,
+.sr_character_age,
+.sr_character_description,
+.sr_character_header_notes,
+.sr_vehicle_section_notes{
+    border: 1px solid #000;
+    min-height: 40px;
+    position: relative;
+}
+
+.sr_character_general_info_container{
+    min-width: 16rem;
+}
+
+.sr_general_info_notes_text,
+.sr_character_notes_text,
+.sr_vehicle_notes_text,
+.sr_priority_text,
+.sr_spell_text,
+.sr_skill_name,
+.sr_skill_rating,
+.sr_inner_section_title{
+    font-size: var(--sr_small_text_size) !important;
+}
+
+.sr_score_text{
+    font-size: .6rem !important;
+}
+
+.sr_tiny_text{
+    font-size: var(--sr_tiny_text_size);
+}
+
+.sr_attribute_text,
+.sr_vehicle_attribute_text{
+    line-height: 1.16;
+}
+
+.sr_head_section{
+    gap: var(--sr_gap_spacer);
+}
+
+.sr_logo_container{
+    width: 70%;
+}
+
+.sr_general_info_block{
+    display: grid;
+    gap: .3rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "sr_name sr_name sr_name sr_name sr_race"
+        "sr_sex sr_age sr_description sr_description sr_description"
+        "sr_notes sr_notes sr_notes sr_notes sr_notes";
+}
+
+.sr_priority_display{
+    justify-content: space-between;
+}
+
+.sr_attributes_condition_karma_section{
+    gap: var(--sr_gap_spacer);
+    justify-content: space-between;
+}
+
+.sr_damage_rating_text{
+    font-size: .4rem !important;
+    line-height: 1;
+    text-align: center;
+    padding: .2rem 0;
+}
+
+.sr_damage_level_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: .3rem !important;
+    line-height: 1.3;
+    height: 100%;
+}
+
+.sr_attributes_reaction_initiative_container{
+    gap: var(--sr_gap_spacer);
+    padding: var(--sr_padding);
+}
+
+.sr_attributes_container,
+.sr_condition_monitor_container,
+.sr_karma_section_container{
+    border: 1px solid #000;
+    min-height: 40px;
+    min-width: 40px;
+}
+
+.sr_section_header_text{
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding-left: var(--sr_padding);
+}
+
+.sr_attributes_names_block,
+.sr_vehicle_attribute_names_block{
+    text-align: right;
+}
+
+.sr_attributes_scores,
+.sr_vehicle_attributes_score{
+    border-bottom: 1px solid #000;
+    min-width: 40px;
+    line-height: 1.45;
+    text-align: center;
+}
+
+.sr_large_score_box,
+.sr_small_score_box{
+    border: 1px solid #000;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.sr_large_score_box{
+    min-width: 65px;
+    min-height: 45px;
+}
+
+.sr_small_score_box{
+    min-width: 50px;
+    min-height: 25px;
+}
+
+.sr_damage_box_container{
+    padding: .5rem .5rem 0 0;
+}
+
+.sr_damage_box,
+.sr_vehicle_damage_box{
+    border: 1px solid #000;
+    width: 100%;
+    min-height: 24px;
+    min-width: 24px;
+}
+
+.sr_damage_box_spacer{
+    grid-area: box_spacer;
+    min-height: 20px;
+}
+
+.sr_condition_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "light_stun . mod_stun . . ser_stun . . . dead_stun"
+    "stun_1 stun_2 stun_3 stun_4 stun_5 stun_6 stun_7 stun_8 stun_9 stun_10"
+    "box_spacer box_spacer box_spacer box_spacer box_spacer box_spacer box_spacer box_spacer box_spacer box_spacer"
+    "wound_1 wound_2 wound_3 wound_4 wound_5 wound_6 wound_7 wound_8 wound_9 wound_10"
+    "light_wound . mod_wound . . ser_wound . . . dead_wound";
+}
+
+.sr_stun_physical_block{
+    text-align: right;
+    justify-content: space-around;    
+}
+
+.sr_st_phy_text{
+    font-size: .7rem !important;
+    padding-right: .2rem;
+}
+
+.sr_condition_overflow{
+    justify-content: center;
+    gap: var(--sr_gap_spacer);
+    padding-bottom: .5rem;
+}
+
+/*attributes conditions karma section css end*/
+/*skills pools armor cyberware edges section css start*/
+
+.sr_skills_block,
+.sr_dice_pools_block,
+.sr_armor_block,
+.sr_cyberware_block,
+.sr_edges_flaws_block,
+.sr_weapons_block,
+.sr_equipment_block,
+.sr_contacts_block,
+.sr_character_notes_block,
+.sr_vehicle_block,
+.sr_spells_block{
+    border: 1px solid #000;
+}
+
+.sr_information_block_spacer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sr_pool_information_block{
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--sr_gap_spacer);
+}
+
+.sr_pools_gap_spacer{
+    display: flex;
+    flex-direction: column;
+    gap: var(--sr_gap_spacer);
+}
+
+.sr_armor_block,
+.sr_edges_flaws_block{
+    min-height: 150px;
+}
+
+.sr_edge_flaw_divider{
+    width: 100%;
+}
+
+.sr_edge_flaw_gap{
+    display: flex;
+    gap: var(--sr_gap_spacer);
+}
+
+.sr_pool_text{
+    text-align: right;
+    width: 100%;
+    font-size: var(--sr_small_text_size) !important;
+}
+
+.sr_skills_pools_cyberware_armor_edges_grid{
+    display: grid;
+    gap: var(--sr_gap_spacer);
+    grid-template-columns: 1fr .7fr 1fr;
+    grid-template-areas: 
+    "sr_skills sr_pools sr_cyber"
+    "sr_skills sr_armor sr_cyber"
+    "sr_edges sr_edges sr_spells";
+}
+
+.sr_spells_force_block,
+.sr_spells_drain_block{
+    width: 100%;
+}
+
+.sr_spells_section_spacer,
+.sr_spells_adept_section_spacer{
+    gap: var(--sr_gap_spacer);
+}
+
+.sr_spells_name_section{
+    width: 55%;
+}
+
+.sr_spells_force_drain_section{
+    width: 45%;
+    justify-content: space-between;
+    gap: var(--sr_gap_spacer);
+}
+
+/*skills pools armor cyberware edges section css end*/
+
+.sr_equipment_contacts_section_container,
+.sr_character_vehicle_container{
+    gap: var(--sr_gap_spacer);
+}
+
+.sr_equipment_block,
+.sr_contacts_block{
+    width: 100%;
+}
+
+.sr_weapons_block,
+.sr_equipment_block{
+    min-height: 300px;
+}
+
+/*weapons section start*/
+
+.sr_weapons_inner_block_container{
+    padding: var(--sr_padding);
+    gap: .3rem;
+    justify-content: space-between;
+}
+
+.sr_weapons_info_spacer_small{
+    min-width: 30px;
+}
+
+.sr_weapons_info_spacer_med{
+    min-width: 60px;
+}
+
+.sr_weapons_info_spacer_large{
+    min-width: 75px;
+}
+
+/*weapons section end*/
+/*equipment contacts section start*/
+
+
+
+/*equipment contacts section end*/
+/*character notes section start*/
+
+.sr_character_notes_block{
+    width: 30%;
+}
+
+/*character notes section end*/
+/*vehicle section start*/
+
+.sr_vehicle_inner_block_spacer{
+    display: flex;
+    flex-direction: column;
+    gap: var(--sr_gap_spacer);
+}
+
+.sr_vehicle_damage_notes_container{
+    width: 65%;
+    justify-content: space-between;
+}
+
+.sr_vehicle_block{
+    width: 70%;
+}
+
+.sr_vehicle_att_damage_block_container{
+    display: flex;
+    gap: var(--sr_gap_spacer);
+}
+
+.sr_vehicle_type_information{
+    width: 55%;
+    gap: var(--sr_gap_spacer);
+}
+
+.sr_vehicle_type_information p{
+    font-weight: bold;
+}
+
+.sr_vehicle_type_underline{
+    border-bottom: 1px solid #000;
+    width: 100%;
+}
+
+.sr_vehicle_type_text{
+    font-weight: normal !important;
+    line-height: 1;
+}
+
+.sr_vehicle_condition_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "sr_veh_dam_light . sr_veh_dam_mod . . sr_veh_dam_ser . . . sr_veh_dam_dest" 
+    "sr_veh_dam1 sr_veh_dam2 sr_veh_dam3 sr_veh_dam4 sr_veh_dam5 sr_veh_dam6 sr_veh_dam7 sr_veh_dam8 sr_veh_dam9 sr_veh_dam10";
+}
+
+.sr_vechile_arrtibutes_block{
+    width: 35%;
+    display: flex;
+    gap: var(--sr_gap_spacer);
+    
+}
+
+.sr_vehicle_attribute_names_block,
+.sr_vehicle_attributes_score_block{
+    width: 100%;
+}
+
+.sr_vehicle_damage_notes_block{
+    width: 100%;
+}
+
+/*vehicle section end*/

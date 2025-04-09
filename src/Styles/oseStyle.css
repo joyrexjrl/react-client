@@ -1,0 +1,231 @@
+:root{
+    --large-block-height: 250px;
+    --medium-block-height: 230px;
+    --small-block-height: 75px;
+    --info-block-spacer-gap: .3rem;
+    --half-rem-gap: .5rem;
+}
+
+#image_display{
+    width: 100%;
+    height: auto;
+}
+
+.ose_character_sheet{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(600px, auto));
+    max-width: 1400px;
+    gap: var(--half-rem-gap);
+    margin: 1rem auto 0;
+    font-family: 'Nova Square', cursive;
+}
+
+.ose_character_sheet p,
+.ose_info_helper_text{
+    font-size: .5rem;
+    font-style: italic;
+}
+
+.ose_side_title_info{
+    display: flex;
+    align-items: center;
+    padding-left: .2rem;
+}
+
+.ose_character_sheet h2{
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+}
+
+.ose_logo{
+    margin-bottom: 1rem;
+}
+
+.ose_larger_cap{
+    font-size: 1.8rem;
+}
+
+.ose_spacer_container{
+    gap: var(--info-block-spacer-gap);
+}
+
+.ose_block_large_height_spacer{
+    min-height: var(--large-block-height);
+}
+
+.ose_block_medium_height_spacer{
+    min-height: var(--medium-block-height);
+}
+
+.ose_block_small_height_spacer{
+    min-height: var(--small-block-height);
+}
+
+.ose_right_side_align{
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.ose_info_bar{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(600px, auto));
+    max-width: 1400px;
+    margin-inline: auto;
+}
+
+.ose_info_section,
+.ose_input_section{
+    font-family: 'Nova Square', cursive;
+    padding: .5rem 1rem;
+}
+
+.ose_input_section{
+    gap: var(--half-rem-gap);
+}
+
+.ose_input_section_inner{
+    width: 100%;
+    gap: var(--info-block-spacer-gap);
+    justify-content: space-between;
+}
+
+input::placeholder,
+.ose_user_dropdowns{
+    font-style: italic;
+    font-size: .8rem;
+}
+
+.ose_user_dropdowns{
+    width: 100%;
+    background-color: #fff;
+    border: none;
+}
+
+.ose_header_dropdown_menues{
+    gap: var(--info-block-spacer-gap);
+}
+
+.ose_info_section_text{
+    font-size: .8rem;
+    max-width: 50ch;
+}
+
+.ose_make_character_button,
+.ose_clear_user_content_button{
+    width: 80px;
+    height: 25px;
+    cursor: pointer;
+    font-size: .8rem;
+}
+
+.ose_page_one,
+.ose_page_two{
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    max-width: 620px;
+    margin-inline: auto;
+    padding: 1.5rem;
+    gap: .8rem;
+}
+
+.ose_page_left_side{
+    width: 65%;
+}
+
+.ose_page_right_side{
+    width: 32%;
+}
+
+.ose_character_header_info{
+    gap: var(--info-block-spacer-gap);
+}
+
+.ose_side_by_side_info_large_block,
+.ose_side_by_side_info_medium_block,
+.ose_side_by_side_info_small_block,
+.ose_side_by_side_info_full_block{
+    border: 1px solid #000;
+    text-align: center;  
+}
+
+.ose_side_by_side_info_full_block{
+    width: 100%;
+}
+
+.ose_side_by_side_info_large_block{
+    width: 75%;        
+}
+
+.ose_side_by_side_info_medium_block{
+    width: 50%;    
+}
+
+.ose_side_by_side_info_small_block{
+    width: 25%;    
+}
+
+.ose_combat_section_stacked_spacer{
+    width: 50%;
+}
+
+.ose_combat_section_description_spacer{
+    width: 50%;
+    padding-left: .2rem;
+}
+
+.ose_side_by_side_start,
+.ose_three_info_start{
+    background-color: #000;
+    color: #fff;
+    min-width: 30px;
+    font-size: .7rem;
+    padding-block: .3rem;
+}
+
+.ose_three_info_start,
+.ose_three_info_mid,
+.ose_side_by_side_end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ose_three_info_description{
+    padding-right: .5rem;
+}
+
+.ose_three_info_block{
+    width: 50%;
+    border: 1px solid #000;
+    justify-content: space-between;
+}
+
+.ose_descriptions_block{
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    padding-left: .2rem;
+    width: 25%;
+}
+
+.ose_ability_saves_side_by_side{
+    width: 50%;
+}
+
+.ose_general_info_block,
+.ose_character_portait{
+    border: 1px solid #000;
+    padding: .5rem;
+}
+
+.ose_displayed_info{
+    font-size: .8rem !important;
+    line-height: 1;
+    padding-left: .5rem;
+}
+
+.ose_custom_name_display{
+    width: 100%;
+}
